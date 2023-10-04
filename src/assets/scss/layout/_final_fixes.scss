@@ -1,0 +1,97 @@
+.sidebar-links li a,
+.sidebar-links li a svg {
+    color: white !important;
+    transition: none !important;
+    font-size: 12px !important;
+}
+
+.sidebar-links li a:hover {
+    color: #ed1b2d !important;
+    opacity: 1 !important;
+    svg {
+        color: #ed1b2d !important;
+        stroke: #ed1b2d !important;
+    }
+}
+
+.sidebar-submenu li a {
+    font-size: 12px !important;
+    padding: 6px 10px !important;
+}
+
+.sidebar-submenu li a{
+    &:hover {
+        &:after {
+            border-top: 2px solid #ed1b2d !important;
+            transition: all 0.1s ease;
+        }
+    }
+}
+
+.sidebar-submenu li {
+    .nav-sub-childmenu {
+        display: none;
+        position: relative !important;
+        right: 0;
+        width: 100%;
+        padding: 0;
+
+        &.opensubchild {
+            display: block;
+        }
+
+        li {
+            a {
+                padding: 6px 45px;
+                padding-left: 56px !important;
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    a {
+        padding: 7px 25px;
+        font-size: 14px;
+        color: $sidebar-text-inactive-color;
+
+        display: block;
+        position: relative;
+        letter-spacing: 0.06em;
+        font-weight: 500;
+        font-family: Roboto;
+        transition: all 0.3s ease;
+
+        &:after {
+            left: 20px;
+            @extend %sidebar-after;
+        }
+
+        &:hover {
+            margin-left: 0;
+        }
+    }
+}
+
+.nav-sub-childmenu li a{
+    font-size: 12px !important;
+    padding: 6px 10px !important;
+}
+
+.logo-wrapper {
+    .logo-login-light {
+        padding-left: 1.5em;
+        padding-right: 0.5em;
+        height: 33px;
+        width: 150px;
+    }
+}
+
+.toggle-sidebar{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}

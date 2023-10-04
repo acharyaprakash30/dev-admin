@@ -1,0 +1,10 @@
+{
+    "overrides": [
+        {
+            "files": ["*.test.js", "*.spec.js","*-index.js"],
+            "rules": {
+                "no-unused-expressions": "off"
+            }
+        }
+    ]
+}

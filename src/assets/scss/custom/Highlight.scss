@@ -1,0 +1,10 @@
+.element {
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+  
+  .highlight {
+    background-color: rgba(241, 241, 145, 0.5);
+  }

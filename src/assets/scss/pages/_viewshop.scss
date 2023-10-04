@@ -1,0 +1,23 @@
+.shopView{
+
+    .title{
+        font-weight: 800;
+        font-size: 15px;
+        font-family: 'Poppins',sans-serif;
+    }
+    .coverImg{
+        border: 1px solid gray;
+    }
+    .profileImg{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        margin-bottom: 40px;
+        border-radius: 50%;
+        border: 1.5px solid gray;
+        box-shadow: 2px 2px #ede8e4;
+    }
+    .shopDetail{
+        margin-top: 45px;
+        font-family: 'Poppins',sans-serif;
+    }
+}

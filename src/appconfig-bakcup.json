@@ -1,0 +1,8 @@
+{
+    "appName": "KtmKart",
+    "baseURL": "https://api.ktmkart.com", 
+    "assetURL" : "https://api.ktmkart.com/asset/upload/",
+    "httpAssetURL" : "https://a.classified.doransoft.com/asset/upload/image/",
+    "mail": "webadmin@ktmkart.com",
+    "website" : "ktmkart.com"
+}

@@ -1,0 +1,92 @@
+// .multi-level-category__input{
+//     font-size: 14px;
+// }
+
+.multi-level-category__wrapper{
+    background: #fff;
+    border: 1px solid #ced4da;
+    // padding: 1rem;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+
+    ul {
+        display: inline-block;
+        border: 1px solid #f5f5f5;
+        padding: 0.5rem 0rem;
+        width: 14.5rem;
+
+        li{  
+
+            .active{
+                background-color: #f5f5f5;
+                border-left: 2px solid $primary-color;
+            }
+
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 12px;
+                line-height: 2rem;
+                font-weight: 300;
+                padding: 0 0.8rem;
+                color: $theme-font-color;
+                position: relative;
+
+                &:hover{
+                    background-color: #f5f5f5;
+                    border-left: 2px solid $primary-color;
+                }
+            }
+
+            &:hover .sub-categories-wrapper{
+                opacity: 1;
+                visibility: visible;
+            }
+  
+            .sub-categories-wrapper, .child-categories-wrapper{
+                position: absolute;
+                background: $white;
+                left: 15.4rem;
+                top: 2.4rem;
+                width: 14.5rem;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+
+            .sub-categories-wrapper {
+                ul{
+                    li{
+                        &:hover .child-categories-wrapper{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+
+            .child-categories-wrapper{
+                left: 14.5rem;
+                top: 0rem;
+            }
+        }
+
+        li.active{
+            background: #f5f5f5;
+            border-left: 2px solid #ea121d;
+        }
+    }
+
+
+}
+
+.category-active{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.active-class{
+    background: #f5f5f5;
+    border-left: 2px solid #ea121d;
+}

@@ -1,0 +1,22 @@
+[
+    {
+       "MemberName": "ABC",
+       "Address": "Shankhamul",
+       "Email": "sas@asas.com",
+       "SubscriptionType": "MOnthly Basis"
+    },
+    {
+        "MemberName": "ABC",
+        "Address": "Shankhamul",
+        "Email": "sas@asas.com",
+        "SubscriptionType": "MOnthly Basis"
+     },
+     {
+        "MemberName": "ABC",
+        "Address": "Shankhamul",
+        "Email": "sas@asas.com",
+        "SubscriptionType": "MOnthly Basis"
+     }
+    
+   
+]

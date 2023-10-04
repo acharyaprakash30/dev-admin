@@ -1,0 +1,36 @@
+
+
+let actions ={
+    GET_NOTIFICATION_REQ: "GET_NOTIFICATION_REQ", 
+    GET_NOTIFICATION_SUC: "GET_NOTIFICATION_SUC", 
+    GET_NOTIFICATION_FAIL: "GET_NOTIFICATION_FAIL", 
+
+    EDIT_NOTIFICATION_REQ: "EDIT_NOTIFICATION_REQ", 
+    EDIT_NOTIFICATION_SUC: "EDIT_NOTIFICATION_SUC", 
+    EDIT_NOTIFICATION_FAIL: "EDIT_NOTIFICATION_FAIL", 
+
+    POST_NOTIFICATION_REQ: "POST_NOTIFICATION_REQ", 
+    POST_NOTIFICATION_SUC: "POST_NOTIFICATION_SUC", 
+    POST_NOTIFICATION_FAIL: "POST_NOTIFICATION_FAIL", 
+
+    DELETE_NOTIFICATION_REQ: "DELETE_NOTIFICATION_REQ", 
+    DELETE_NOTIFICATION_SUC: "DELETE_NOTIFICATION_SUC", 
+    DELETE_NOTIFICATION_FAIL: "DELETE_NOTIFICATION_FAIL", 
+
+    getNotifications:()=> ({
+        type : actions.GET_NOTIFICATION_REQ,
+    }),
+    editNotifcation:(id,payload)=> ({
+        type:actions.EDIT_NOTIFICATION_REQ,
+        id,payload
+    }),
+    deleteNotifcation:(id)=> ({
+        type: actions.DELETE_NOTIFICATION_REQ,
+        id
+    }),
+    postNotification:(data)=> ({
+        type: actions.POST_NOTIFICATION_REQ,data
+    })
+}
+
+export default actions

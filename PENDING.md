@@ -1,0 +1,2 @@
+- Delete order by item(id)
+- Clear products filter after used/applied

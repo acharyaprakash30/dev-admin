@@ -1,0 +1,45 @@
+[
+    {
+        "FirstName": "Jhon ",
+        "MiddleName": "Parsad",
+        "LastName": "Doe",
+        "Email": "Jhon@123@gmail.com",
+        "Roles": "Staff"
+    },
+    {
+        "FirstName": "Jhon ",
+        "MiddleName": "Parsad",
+        "LastName": "Doe",
+        "Email": "Jhon@123@gmail.com",
+        "Roles": "Staff"
+    },
+    {
+        "FirstName": "Jhon ",
+        "MiddleName": "Parsad",
+        "LastName": "Doe",
+        "Email": "Jhon@123@gmail.com",
+        "Roles": "admin"
+    },
+    {
+        "FirstName": "Jhon ",
+        "MiddleName": "Parsad",
+        "LastName": "Doe",
+        "Email": "Jhon@123@gmail.com",
+        "Roles": "Staff"
+    },
+    {
+        "FirstName": "Jhon ",
+        "MiddleName": "Parsad",
+        "LastName": "Doe",
+        "Email": "Jhon@123@gmail.com",
+        "Roles": "Staff"
+    },
+    {
+        "FirstName": "Mark",
+        "MiddleName": "Bahadur",
+        "LastName": "Zukerberg",
+        "Email": "Mark@123@gmail.com",
+        "ROles": "Admin"
+    }
+]
+

@@ -1,0 +1,21 @@
+.page-wrapper.compact-wrapper .page-body-wrapper.sidebar-icon div.sidebar-wrapper{
+    background: #2f3b70;
+}
+
+.toggle-icon,
+.page-wrapper.compact-wrapper .page-body-wrapper.sidebar-icon div.sidebar-wrapper .sidebar-main .sidebar-links li a span,
+.page-wrapper.compact-wrapper .page-body-wrapper.sidebar-icon div.sidebar-wrapper .sidebar-main .sidebar-links > li a svg,
+.page-wrapper.compact-wrapper .page-body-wrapper.sidebar-icon div.sidebar-wrapper .sidebar-main .sidebar-links > li .sidebar-submenu li a,
+.page-wrapper.compact-wrapper .page-body-wrapper.sidebar-icon .according-menu i
+{
+    color: $white;
+}
+
+.submit-button {
+    background-color: #3f901d !important;
+    border-color: #3f901d !important;
+}
+
+.sidebar-links li a{
+    padding: 7.5px 10px !important;
+}

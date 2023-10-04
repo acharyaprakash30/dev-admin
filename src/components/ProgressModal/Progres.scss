@@ -1,0 +1,18 @@
+.progress-modal {
+    .modal-header{
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        border: none;
+    }
+    .modal-title {
+        font-size: 15px;
+        line-height: 5px !important;
+        
+    }
+    .modal-body {
+        padding-top: 0.5rem;
+        .progress {
+            height: 12px
+        }
+    }
+}

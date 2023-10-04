@@ -1,0 +1,182 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem;
+}
+
+.order-details--text{
+    display: flex;
+}
+
+.order-details--text p:first-child{
+    display: flex;
+    padding:0px 10px;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.order-details--text p{
+    display: flex;
+    margin:0;
+}
+
+.customer-details p,.order-details p{
+   max-width: 250px;
+   margin:0;
+}
+
+/* .customer-details > p{
+    /* font-weight: bold; */
+/* } */ */
+
+/* .customer-details > p:first-child{
+    font-weight: bold;
+} */
+
+.select-label{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+}
+
+.select-label> label{
+   font-weight: bold;
+}
+
+.flex-end{
+    display:flex;
+    justify-content: end;
+}
+
+.flex-end--filter{
+    display:flex;
+    justify-content: end;
+    margin: 10px 0px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin:2px;
+}
+
+.btn:hover {
+    background-color: #ef486a;
+    color:white;
+}
+
+.input {
+    max-width: 150px;
+    margin:2px;
+    
+    
+}
+.ant-input:hover, .ant-input:focus-within{
+    border: 1px solid red !important;
+
+}
+
+.ant-picker:hover, .ant-picker:focus-within{
+    border: 1px solid red !important;
+
+}
+
+.ant-select-selector:hover, .ant-select-selector:focus-within {
+    border: 1px solid red !important;
+  }
+
+  .ant-picker-today-btn {
+    color: red !important;
+  }
+
+  .ant-picker-cell-today .ant-picker-cell-inner {
+    border: 2px solid red !important;
+
+  }
+  
+
+  .ant-picker-cell-selected .ant-picker-cell-inner {
+    background-color:  #01b051 !important;
+
+  }
+
+
+.flex-row{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+  @media (max-width: 450px) {
+      .details{
+          flex-direction: column;
+          align-items: center;
+      }
+      .customer-details{
+          border-bottom: 2px solid ;
+          padding-bottom: 10px;
+      }
+      
+      
+  }
+
+.ant-btn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: red;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.vendor-carouselItem .ant-image-img{
+        clip-path:  circle(44%);   
+        position: relative;    
+        
+}
+
+.vendor-carouselItem p{
+    font-family: 'Poppins',san-serif;
+    cursor: pointer;
+}
+
+.vendor-carouselItem .countVendor{
+    position: absolute;
+    top:15%;
+    /* left:78%; */
+    transform: translateX(150%);
+    background-color: green;
+    min-width: 25px;
+    border-radius: 25px;
+    color:white;
+    text-align: center;
+    padding: 2.5px
+}
+
+.order-edit{
+    font-family: 'Poppins',san-serif;
+}
+
+.order-edit .select-vendor p{
+   font-size: 14.5px;
+}
+

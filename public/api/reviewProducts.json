@@ -1,0 +1,60 @@
+[
+    {
+        "ProductID": 1,
+        "ProductName": "Women Pink shirt.",
+        "TotalReviews": "27",  
+        "TotalRating": "10",
+        "AverageRating": "3"
+    },
+    {
+        "ProductID": 2,
+        "ProductName": "Mens Pant",
+        "TotalReviews": "27",  
+        "TotalRating": "10",
+        "AverageRating": "4"
+    },
+    {
+        "ProductID": 3,
+        "ProductName": "Adidas Shoes",
+        "TotalReviews": "10",  
+        "TotalRating": "8",
+        "AverageRating": "5"
+    },
+    {
+        "ProductID": 4,
+        "ProductName": "Women Pink shirt.",
+        "TotalReviews": "27",  
+        "TotalRating": "10",
+        "AverageRating": "3"
+    },
+    {
+        "ProductID": 5,
+        "ProductName": "Women Pink shirt.",
+        "TotalReviews": "27",  
+        "TotalRating": "10",
+        "AverageRating": "3"
+    },
+    {
+        "ProductID": 6,
+        "ProductName": "Women Pink shirt.",
+        "TotalReviews": "27",  
+        "TotalRating": "10",
+        "AverageRating": "3"
+    },
+    {
+        "ProductID": 7,
+        "ProductName": "Women Pink shirt.",
+        "TotalReviews": "27",  
+        "TotalRating": "10",
+        "AverageRating": "3"
+    },
+    {
+        "ProductID": 8,
+        "ProductName": "Women Pink shirt.",
+        "TotalReviews": "27",  
+        "TotalRating": "10",
+        "AverageRating": "3"
+    }
+    
+]
+

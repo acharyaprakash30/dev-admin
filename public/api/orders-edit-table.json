@@ -1,0 +1,38 @@
+[
+    {
+        "OrderBy": "Jhon ",
+        "ProductDetails": "MI A3",
+        "Address":"Shankhamul",
+        "PostalCode": "2600",
+        "Latitude": "90 90 6 0 ",
+        "Longitude": "3 3 3 3 ",
+        "DeliveryCharge": "2000",
+        "TotalCharge": "200000",
+        "Payment": "on Delivery",
+        "OrderStatus": "Shipped"
+
+    },
+     {
+        "OrderBy": "Jhon ",
+        "ProductDetails": "MI A3",
+        "Address": "Shankhamul",
+        "PostalCode": "2600",
+        "DeliveryCharge": "2000",
+        "TotalCharge": "200000",
+        "Payment": "on Delivery",
+        "OrderStatus": "Packed"
+    },
+     {
+        "OrderBy": "Jhon ",
+        "ProductDetails": "MI A3",
+        "Address": "Shankhamul",
+        "PostalCode": "2600",
+        "Latitude": "90 90 6 0 ",
+        "Longitude": "3 3 3 3 ",
+        "DeliveryCharge": "2000",
+        "TotalCharge": "200000",
+        "Payment": "on Delivery",
+        "OrderStatus": "Cancelled"
+    }
+    
+]

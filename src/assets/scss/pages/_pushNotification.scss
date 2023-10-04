@@ -1,0 +1,45 @@
+.ant-form-item {
+    margin-bottom: 7px !important;
+}
+
+.ant-form label {
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ant-radio-wrapper {
+    span {
+        font-weight: 100;
+    }
+}
+
+.autosearch {
+
+    // position: relative;
+    .ant-select-selection-placeholder {
+        padding-left: 29px !important;
+    }
+
+    .ant-select-selection-search {
+        left: 36px !important;
+    }
+
+    svg {
+        transform: translate(15px, -23.5px) !important;
+
+        &:hover {
+            transform: scale(1.15);
+            cursor: pointer;
+        }
+    }  
+}
+.userInfo {
+    padding: 4px 10px;
+    background-color:#fff0f0 !important;
+    font-family: 'Poppins', sans-serif;
+    border-radius : 5px;
+    svg {
+        cursor: pointer;
+    }
+}

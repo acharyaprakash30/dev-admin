@@ -1,0 +1,55 @@
+# image: node:12.18.3
+
+# cache:
+#   paths:
+#     - node_modules/
+
+# build-job:
+#   only:
+#     - master
+#   stage: build
+#   script:
+#     - yarn install
+#     - yarn run build
+#     - lscpu
+#     - yarn global add serve
+#     - serve -s build
+
+# deploy-prod:
+#   stage: deploy
+#   script:
+#     - echo "This job deploys something from the $CI_COMMIT_BRANCH branch."
+
+#stages:
+#  - deploy
+
+#deploy:
+#  image: alpine:latest
+#  stage: deploy
+#  before_script:
+#    - apk update && apk add openssh-client
+#    - eval $(ssh-agent -s)
+#    - echo "$SSH_KEY" | tr -d '\r' | ssh-add -
+#    - mkdir -p ~/.ssh
+#    - chmod 700 ~/.ssh
+#  script:
+#    - ssh -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP "cd /ktmkart/prod && source deploy.sh && exit"
+#  only:
+#    - master
+
+stages:
+#    - build
+    - deploy
+
+
+
+deploy:
+  stage: deploy
+  image: 
+    name: amazon/aws-cli:2.9.10
+    entrypoint: [""]
+  script:
+    - aws --version
+    - aws s3 sync build s3://$AWS_S3_BUCKET --delete 
+  only:
+    - master
